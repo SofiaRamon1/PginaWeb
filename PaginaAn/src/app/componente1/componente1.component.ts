@@ -12,8 +12,14 @@ export class Componente1Component implements OnInit {
 
   ngOnInit(): void {
   }
-  navegacion(){
+  navegacionc2(){
     this.router.navigate(['Web2'])
+  }
+  navegacionc3(){
+    this.router.navigate(['3cwb1'])
+  }
+  navegacionc4(){
+    this.router.navigate(['4cwb1'])
   }
 
 }
