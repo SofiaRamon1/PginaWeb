@@ -4,9 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { Componente2Component } from './componente2/componente2.component';
+import { Componente3Component } from './componente3/componente3.component';
+import { Componente1Component } from './componente1/componente1.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Componente2Component,
+    Componente3Component,
+    Componente1Component
   ],
   imports: [
     BrowserModule,
